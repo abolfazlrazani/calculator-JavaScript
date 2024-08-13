@@ -1,0 +1,71 @@
+@font-face
+{
+    font-family: 'Vazir-Bold';
+    src: url('..//fonts/Vazir-Bold.eot')format('eot'),
+    url('../fonts/Vazir-Bold.ttf')format('truetype'),
+    url('../fonts/Vazir-Bold.woff')format('woff');
+    font-weight: Bold;
+    font-style: Bold;
+}
+@font-face
+{
+    font-family: 'Vazir-Medium';
+    src: url('../fonts/Vazir-Medium.eot')format('eot'),
+    url('../fonts/Vazir-Medium.ttf')format('truetype'),
+    url('../fonts/Vazir-Medium.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Vazir-Medium;
+ }
+ body {
+    background-color: #ffff;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main {
+    width: 320px;
+    height: 450px;
+    background-color: #374352;
+    position: absolute;
+    border-radius: 20px;
+    padding-top: 2rem;
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 2px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+ }
+ .btn input[type='button'] {
+    width: 70px;
+    height: 60px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 12px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #374352;
+    border-radius: 10px;
+    color: white;
+    border: solid 1px #ffff;
+ }
+ .btn input[type='button']:hover {
+    background-color: #D4D4D2;
+    color: black;
+ }
